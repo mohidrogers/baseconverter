@@ -46,7 +46,7 @@
             }
             function fun(){
                 var y=document.getElementById("output").value;
-                var ax=y.match(/[g-zG-Z]/g);   
+                var ax=y.match(/[g-zG-Z$&+,:;=?@#|'<>-^*()%!]/g);   
             if(ax){
             alert("please enter a valid hexadecimal number");
            }
