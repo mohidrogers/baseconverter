@@ -46,7 +46,7 @@
             }
             function fun(){
                 var y=document.getElementById("output").value;
-                var ax=y.match(/[g-zG-Z]/g);   
+                var ax=y.match(/[g-zG-Z+-]/g);   
             if(ax){
             alert("please enter a valid hexadecimal number");
            }
@@ -61,7 +61,7 @@
         }
         function fun1(){
                 var g=document.getElementById("o1").value;
-                var ml=g.match(/[a-zA-Z2-9$&+,:;=?@#|'<>-^*()%!]/g);
+                var ml=g.match(/[a-zA-Z2-9$&+,:;=?@#|'<>-^*()%!-]/g);
                 if(ml){
                 alert("please enter a valid binary number");
                 }
@@ -76,7 +76,7 @@
         }
         function fun3(){
                 var c=document.getElementById("o2").value;
-                var kl=c.match(/[a-zA-Z8-9$&+,:;=?@#|'<>-^*()%!]/g);
+                var kl=c.match(/[a-zA-Z8-9$&+,:;=?@#|'<>-^*()%!-]/g);
                 if(kl){
                 alert("please enter a valid octal number");
               }
