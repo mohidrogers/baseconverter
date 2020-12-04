@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head profile="https://www.w3.org/2005/10/profile">
@@ -7,14 +8,20 @@
         <title>
           Base Converter
         </title>
-       <link rel="stylesheet" href="module_2 css.css">
+       <link rel="stylesheet" href="trail1.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
       </head>
       <body>
-          <div class="col-6">
+        <div class="container">
+                <div class="row">
+                  <div class="col-md-4"></div>
+  
+                
+                  <div class="col-md-12">
        <h1 align="center">SPARK TECHIES</h1>
        
-       <h3 align="center">Number System Conversion</h3>
-       <h2 align="center">Enter Your Number Below</h2>
+       <h2 align="center">Number System Conversion</h2>
+       
            <table align="center">
           <tr><td> <label  for="decimal">Decimal:</label></td>
         <td><input type="text" id="num" placeholder="decimal number" inputmode="numeric" oninput="calculate()"/></td>
@@ -29,13 +36,17 @@
         <td><input id="o2" placeholder="octal number" inputmode="numeric" oninput="fun3()"></td></tr>
          <tr><td><button id="b1" value="submit" style="cursor:pointer; font-weight: bold;" onclick="reset()">Reset</button></td></tr>
     </table>
-          <div align="center"><p style="font-size: 20px; margin-block-start: 0.5em;margin-block-end: 0.5em; font-family: Arial, Helvetica, sans-serif;">Click below to perform arithmetic operations</p>
+    <div align="center"><h4>Click below to perform arithmetic operations</h4>
         <button id="b2" value="submit" style="cursor:pointer; font-weight: bold;"><a href="https://mohidrogers.github.io/numberconversions/" style="text-decoration: none;color: #000;" target="_blank">Arithmetic Operations</a></button>
     </div>
  <div align="center" class="yt1">
-        <p style="font-size: 20px; margin-block-start: 0.5em;margin-block-end: 0.5em; font-family: Arial, Helvetica, sans-serif;">Follow Us On Social Media</p><table><tr><td><a href="http://www.youtube.com/c/SparkTechies/" target="_blank" style="text-decoration: none;"><img id="yt" src="https://freeiconshop.com/wp-content/uploads/edd/youtube-solid.png" alt="youtube"></a></td>
-            <td><a href="https://instagram.com/spark.techies/" target="_blank" style="text-decoration: none;"><img id="ins" src="https://freeiconshop.com/wp-content/uploads/edd/instagram-new-outline.png" alt="instagram"></a></td></tr></table>
-              </div></div>
+        <p style="font-size: 20px; margin-block-start: 0.5em;margin-block-end: 0.5em; font-family: Arial, Helvetica, sans-serif;">Follow Us On Social Media</p><table><tr><td><a href="http://youtube.com/c/SparkTechies/" target="_blank" style="text-decoration: none;"><img id="yt" src="https://freeiconshop.com/wp-content/uploads/edd/youtube-solid.png" alt="youtube"></a></td>
+            <td><a href="https://www.instagram.com/spark.techies/" target="_blank" style="text-decoration: none;"><img id="ins" src="https://freeiconshop.com/wp-content/uploads/edd/instagram-new-outline.png" alt="instagram"></a></td></tr></table>
+  </div>
+              </div>
+           
+                  <div class="col-md-4"></div></div></div>
+
         <script>
             function calculate(){
             var x=document.getElementById("num").value;	
